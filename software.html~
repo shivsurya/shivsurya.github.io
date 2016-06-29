@@ -22,22 +22,22 @@
 					    
 					        
 					    
-					    <li><a href="https://shivsurya.github.io/cv/cv.html" >Curriculum Vitae</a></li>
+					    <li><a href="https://shivsurya.github.io/cv/" >Curriculum Vitae</a></li>
 					  
 					    
 					        
 					    
-					    <li><a href="https://shivsurya.github.io/publications/pub.html" >Publications</a></li>
+					    <li><a href="https://shivsurya.github.io/publications/" >Publications</a></li>
 					  
 					    
 					        
 					    
-					    <li><a href="https://shivsurya.github.io/software/software.html" >Software</a></li>
+					    <li><a href="https://shivsurya.github.io/software/" >Software</a></li>
 					  
 					    
 					        
 					    
-					    <li><a href="https://shivsurya.github.io/contact/contact.html" >Contact</a></li>
+					    <li><a href="https://shivsurya.github.io/contact/" >Contact</a></li>
 					  
 		    </ul>
 		</nav>
@@ -61,18 +61,9 @@
 
 
     <section class="main-content">
-      <h3>
-<a id="Shiv Surya" class="anchor" href="#Shiv Surya" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Shiv Surya</h3> 
-
 
 <p style="text-align:justify">
-I am a Research Staff Member with <a href="http://www.serc.iisc.ernet.in/~venky/">Prof.Venkatesh Babu's</a> lab in <a href="http://www.iisc.ernet.in/">Indian Institute of Science</a> in Bangalore, India, working on machine learning and computer vision. I received my M.S in Electrical Engineering from <a href="https://www.usc.edu/">University of Southern California</a> in 2015. At USC, I worked in <a href="http://sail.usc.edu/shri.php">Shrikanth Narayanan's</a> lab on liveness deteciton in speech. I obtained B.E degree in Electrical Engineering from <a href="http://www.rvce.edu.in/">RVCE</a> in 2013.
-<h3>
-<a id="research-interest" class="anchor" href="#research-interest" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Research Interest</h3>
-
-<p style="text-align:justify">My main research interests are in machine learning applied to computer vision and speech. In particular, I am interested in learning strategies for deep learning, generalized object detection and cross-depiction</p>
-
-
+These are some code in MATLAB, C, C++ and PYTHON that are available <a href="https://github.com/shivsurya/" ></i>here</a></p>
 
      <footer class="site-footer">
 
