@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
+    <title>Shiv's page</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -43,22 +43,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">Shiv Surya</a>
+                <a class="navbar-brand topnav" href="index.html#about">Shiv Surya</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-home"></i></a>
+                        <a href="index.html#about" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-home"></i></a>
                     </li>
                     <li>
-                        <a href="#aboutme">About Me</a>
+                        <a href="index.html#aboutme">About Me</a>
                     </li>
                     <li class="page-scroll">
                         <a href="publications.html">Publications</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="publications.html#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -102,17 +102,18 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/hsic_power_all.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/switchnet.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 		
-                		<div class="col-lg-9 text-left">
-						<g6> "Nonparametric Independence Testing for Small Sample Sizes"</g6>
-						<br>  <b> L. Wehbe</b>*, A. Ramdas* <i>(equal contribution)</i>
-						<br> <i>Proceedings of the 2015 International Joint Conference on Artificial Intelligence (IJCAI, oral presentation)</i>. 
-						<br> <a href = "http://ijcai.org/papers15/Papers/IJCAI15-531.pdf" class="btn btn-ref">pdf</a>
-                          <a href = "http://arxiv.org/abs/1406.1922" class="btn btn-ref">arXiv</a>
-                          <a href = "files/bibtex_IJCAI.bib" class="btn btn-ref">bibtex</a>
+                		<div class="col-lg-9 text-left" style="margin-top:75px">
+						<g6> "SwiDeN : Convolutional Neural Networks For Depiction Invariant Object Recognition"</g6>
+						<br>   R K Sarvadevabhatla*,<b> S Surya*</b>, SSS  Kruthiventi, V Babu R. <i>(*equal contribution)</i>
+						<br> <i>Proceedings of the 2016 ACM International Conference on Multimedia (ACMMM, poster)</i>. 
+						<br> <a href = "https://arxiv.org/pdf/1607.08764v1.pdf" class="btn btn-ref">pdf</a>
+                          <a href = "https://arxiv.org/abs/1607.08764" class="btn btn-ref">arXiv</a>
+                          <a href = "files/bibtex_acmmm.bib" class="btn btn-ref">bibtex</a>
+                          <a href = "https://github.com/val-iisc/swiden" class="btn btn-ref">code</a>
 						</div>
 						</div>
 						<br>
@@ -121,22 +122,23 @@
 						
 						<div class="row">
 						<div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/naacl.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/crowd_counting_template.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 		
-                		<div class="col-lg-9 text-left">
-						<g6> "A Compositional and Interpretable Semantic Space" </g6>
-						<br>A. Fyshe, <b>L. Wehbe</b>, P. Talukdar, B. Murphy and T. Mitchell
-						<br><i>Proceedings of the 2015 Conference of the North American Chapter of the ACL, chosen for oral presentation </i> (NAACL 2015).
-						<br> <a href="http://www.anthology.aclweb.org/N/N15/N15-1004.pdf" class="btn btn-ref"> pdf</a> 
-						<a href="http://www.anthology.aclweb.org/N/N15/N15-1004.bib" class="btn btn-ref"> bibtex</a> 	
+                		<div class="col-lg-9 text-left" style="margin-top:75px">
+						<g6> "TraCount: A Deep Convolutional Neural Network for HighlyOverlapping Vehicle Counting" </g6>
+						<br><b>S Surya</b>, and V Babu R.
+						<br><i>To appear in Proceedings of the 2016 Indian Conference on Computer Vision, Graphics and Image Processing, chosen for oral presentation </i> (ICVGIP 2016).
+					 <!--	<br> <a href="" class="btn btn-ref"> pdf</a> 
+						<a href="http://www.anthology.aclweb.org/N/N15/N15-1004.bib" class="btn btn-ref"> bibtex</a>-->
+ 	
 						</div>
 						</div>
 						<br>
@@ -187,17 +189,18 @@
                 <div class="row">
                     <div class="col-lg-12 text-left">
                         <div class="modal-body " >
-                           <g6> "Aligning context-based statistical models of language with brain activity during reading"</g6>
-						<br><b> L. Wehbe</b>, A. Vaswani, K. Knight, T. Mitchell
-						<br><i>Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing</i> (EMNLP, long paper).
+						<g6> "TraCount: A Deep Convolutional Neural Network for HighlyOverlapping Vehicle Counting" </g6>
+						<br><b>S Surya</b>, and V Babu R.
+						<br><i>To appear in Proceedings of the 2016 Indian Conference on Computer Vision, Graphics and Image Processing, chosen for oral presentation </i> (ICVGIP 2016).
 						 <br><br>
-                            <img src="img/portfolio/meg_map.jpg" class="img-responsive img-centered" alt="">
-						<br> <a href="http://www.cs.cmu.edu/afs/cs/project/theo-73/www/MEGstories/" class="btn btn-ref">supporting website</a> <a href="http://aclweb.org/anthology/D/D14/D14-1030.pdf" class="btn btn-ref">pdf</a>   <a href="https://www.youtube.com/watch?v=Ko6p7hmEzyU" class="btn btn-ref">conference talk video</a>  <a href="http://aclweb.org/anthology/D/D14/D14-1030.bib" class="btn btn-ref">bibtex</a>
+                            <img src="img/portfolio/crowd_counting_template.png" class="img-responsive img-centered" alt="">
+			 <!--			<br> <a href="http://www.cs.cmu.edu/afs/cs/project/theo-73/www/MEGstories/" class="btn btn-ref">supporting website</a> <a href="http://aclweb.org/anthology/D/D14/D14-1030.pdf" class="btn btn-ref">pdf</a>   <a href="https://www.youtube.com/watch?v=Ko6p7hmEzyU" class="btn btn-ref">conference talk video</a>  <a href="http://aclweb.org/anthology/D/D14/D14-1030.bib" class="btn btn-ref">bibtex</a>-->
+
 						
                            <br><br>
                             
-						<p class="abstract">
-						 <b> Abstract: </b>
+						<p class="abstract" style="text-align:justify">
+						 <b> Abstract:We propose a novel deep framework, TraCount, for highlyoverlapping vehicle counting in congested traffic scenes. Tra-Count uses multiple fully convolutional(FC) sub-networks topredict the density map for a given static image of a traf-fic scene.  The different FC sub-networks provide a range insize of receptive fields that enable us to count vehicles whoseperspective effect varies significantly in a scene due to thelarge visual field of surveillance cameras.  The predictions ofdifferent FC sub-networks are fused by weighted averagingto obtain a final density map.We show that TraCount outperforms the state of the artmethods on the challenging TRANCOS dataset that has atotal of 46796 vehicles annotated across 1244 images. </b>
 						</p>
 
                               
@@ -208,281 +211,98 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-left">
-                        <div class="modal-body">
-                            <g6>"Simultaneously uncovering the patterns of brain regions involved in different story reading subprocesses"</g6> 
-						<br><b> L. Wehbe</b>, B. Murphy, P. Talukdar, A. Fyshe, A. Ramdas, T. Mitchell
-						<br> <i>PLOS ONE, 2014</i>. 
-						
-                            <img src="img/portfolio/brain_map.jpg" class="img-responsive img-centered" alt="">
-                            
-												<br> <a href="http://www.cs.cmu.edu/afs/cs/project/theo-73/www/plosone/" class="btn btn-ref">supporting website (data)</a> <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0112575" class="btn btn-ref">journal website</a> <a href="files/hp_PLOS_ONE.pdf" class="btn btn-ref">pdf</a> <a href="files/hp_PLOS_ONE_supplementary.pdf" class="btn btn-ref">supplementary material</a>  <a href="files/hp_PLOS_ONE.bib" class="btn btn-ref">bibtex</a>
-						<div class="btn-group">
-    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-        press coverage 
-        <span class="caret"></span>
-    </a>
-    <ul class="dropdown-menu">
-        <!--<li><a href="http://hosted.ap.org/dynamic/stories/U/US_MED_BRAIN_ON_HARRY_POTTER?SITE=AP&SECTION=HOME&TEMPLATE=DEFAULT&CTIME=2014-11-26-16-42-23">Associated Press</a></li>-->
-        <li><a href="http://science360.gov/obj/video/b8e8abba-a1fc-49c8-a1c1-ab7e42dd1d35/nsf-science-now-episode-29">NSF Science Now</a></li>
-        <li><a href="http://time.com/3609523/harry-potter-brain-reading-carnegie-mellon-university/">Time</a></li>
-        <li><a href="http://blogs.scientificamerican.com/mind-guest-blog/2014/11/26/how-our-brains-process-books/">Scientific American</a></li>
-        <li><a href="http://www.cmu.edu/news/stories/archives/2014/november/november26_computationalreadingmodel.html">CMU press release</a></li>
-        <li><a href="http://www.nytimes.com/aponline/2014/11/27/health/ap-us-med-brain-on-harry-potter.html?ref=aponline&_r=0">New York Times</a></li>
-        <li><a href="http://www.huffingtonpost.com/2014/12/02/what-harry-potter-can-tel_n_6248804.html">Huffington Post</a></li>
-        <li><a href="https://student.societyforscience.org/article/harry-potter-reveals-secrets-brain">Student Science (8 to 18 years old)</a></li>
-        <li><a href="http://www.biosciencetechnology.com/articles/2014/12/reading-leaves-dramatic-imprint-brain?et_cid=4340158&et_rid=699277830&location=top">Bioscience Technology</a></li>
-        <li><a href="http://www.futurity.org/harry-potter-reading-brain-810402/">Futurity</a></li>
-        
-        
-                            
-    </ul>
-</div>
-		
-						
-						<br><br>
-                            <p class="abstract"> <b>Abstract: </b>  Story understanding involves many perceptual and cognitive subprocesses, from perceiving individual words, to parsing sentences, to understanding the relationships among the story characters. We present an integrated computational model of reading that incorporates these and additional subprocesses, simultaneously discovering their fMRI signatures. Our model predicts the fMRI activity associated with reading arbitrary text passages, well enough to distinguish which of two story segments is being read with 74% accuracy. This approach is the first to simultaneously track diverse reading subprocesses during complex story processing and predict the detailed neural representation of diverse story features, ranging from visual word properties to the mention of different story characters and different actions they perform. We construct brain representation maps that replicate many results from a wide range of classical studies that focus each on one aspect of language processing, and offers new insights on which type of information is processed by different areas involved in language processing. Additionally, this approach is promising for studying individual differences: it can be used to create single subject maps that may potentially be used to measure reading comprehension and diagnose reading disorders.</p>
-                                                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-						
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-left">
-                        <div class="modal-body">
-                            <g6>"Tracking neural coding of perceptual and semantic features of concrete nouns"</g6>
-						<br>G. Sudre, D. Pomerleau, M. Palatucci, <b> L. Wehbe</b>, A. Fyshe, R. Salmelin and T. Mitchell 
-						<br><i>NeuroImage</i>, 2012.
-						
-						<img src="img/portfolio/meg_words.jpg" class="img-responsive img-centered" alt="">
-						
-												<a href="http://www.ncbi.nlm.nih.gov/pubmed/22565201" class="btn btn-ref">journal website</a>  <a href="http://www-cgi.cs.cmu.edu/~tom/pubs/sudre_2012.pdf" class="btn btn-ref">pdf</a>  <a href="files/bibtex/bibtex_neuroimage.bib" class="btn btn-ref">bibtex</a>
-						<br> <br>
-				
-                            <p class="abstract">
-                            We present a methodological approach employing magnetoencephalography (MEG) and machine learning techniques to investigate the flow of perceptual and semantic information decodable from neural activity in the half second during which the brain comprehends the meaning of a concrete noun. Important information about the cortical location of neural activity related to the representation of nouns in the human brain has been revealed by past studies using fMRI. However, the temporal sequence of processing from sensory input to concept comprehension remains unclear, in part because of the poor time resolution provided by fMRI. In this study, subjects answered 20 questions (e.g. is it alive?) about the properties of 60 different nouns prompted by simultaneous presentation of a pictured item and its written name. Our results show that the neural activity observed with MEG encodes a variety of perceptual and semantic features of stimuli at different times relative to stimulus onset, and in different cortical locations. By decoding these features, our MEG-based classifier was able to reliably distinguish between two different concrete nouns that it had never seen before. The results demonstrate that there are clear differences between the time course of the magnitude of MEG activity and that of decodable semantic information. Perceptual features were decoded from MEG activity earlier in time than semantic features, and features related to animacy, size, and manipulability were decoded consistently across subjects. We also observed that regions commonly associated with semantic processing in the fMRI literature may not show high decoding results in MEG. We believe that this type of approach and the accompanying machine learning methods can form the basis for further modeling of the flow of neural information during language processing and a variety of other cognitive processes.
-                             </p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-left">
-                        <div class="modal-body">
-                            
-                          <g6>"Regularized Brain Reading with Shrinkage and Smoothing"</g6>
-						<br> <b> L. Wehbe</b>, A. Ramdas, R. C. Steorts, C. R. Shalizi
-						<br> <i>Annals of Applied Statistics, 2015</i>. 
-						<br><br>
-                            <img src="img/portfolio/ridge_voxels_all.jpg" class="img-responsive img-centered" alt="">
-                            
-                            
-                          <a href="files/aoas_wehbe_2015.pdf" class="btn btn-ref">pdf</a>
-						<a href="http://projecteuclid.org/euclid.aoas/1453994188" class="btn btn-ref">journal website</a>
-                          <a href="http://arxiv.org/abs/1401.6595" class="btn btn-ref">arXiv</a>
-                          <a href="files/bibtex_AoAS.bib" class="btn btn-ref">bibtex</a>
-                          
-                          
-                          
-                           <br><br>
-                            
-						<p class="abstract">
-						 <b> Abstract: </b>
-						 Functional neuroimaging measures how the brain responds to complex
-						stimuli. However, sample sizes are modest, 
-						noise is substantial, and stimuli are
-						high-dimensional.  Hence, direct estimates are inherently imprecise and call
-						for regularization. We compare a suite of approaches which regularize via
-						<i>shrinkage</i>: ridge regression, the elastic net (a generalization of
-						ridge regression and the lasso), and a hierarchical Bayesian model based on
-						small-area estimation (SAE) ideas.  The SAE approach draws heavily on borrowing strength from related areas as to make estimates more precise. 
-						We contrast regularization with <i>spatial smoothing</i>
-						and combinations of smoothing and shrinkage.   
-						All methods are tested on
-						functional magnetic resonance imaging data from multiple subjects participating in two different experiments related to reading, for both predicting neural response to stimuli and decoding stimuli
-						from responses. Interestingly, cross validation (CV) automatically picks very low/high regularization parameters in regions where the classification accuracy is high/low, indicating that CV is a good tool for identification of relevant voxels for each feature.  However, surprisingly, <i>all</i> the regularization methods work
-						equally well, suggesting that beating basic smoothing and shrinkage will take
-						not just <i>clever</i> methods, but <i>careful</i> modeling. 
-
-
-						 </p>
-                           
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                   <div class="col-lg-12 text-left">
-                        <div class="modal-body">
-                               
-                          <g6> "Nonparametric Independence Testing for Small Sample Sizes"</g6>
-						<br>  <b> L. Wehbe</b>*, A. Ramdas* <i>(equal contribution)</i>
-						<br> <i>Proceedings of the 2015 International Joint Conference on Artificial Intelligence (IJCAI, oral presentation) </i>. 
-						
-						
-						<br><br>
-                            <img src="img/portfolio/hsic_power_all.png" class="img-responsive img-centered" alt="">
-                          
-                          
-                          <a href = "http://ijcai.org/papers15/Papers/IJCAI15-531.pdf" class="btn btn-ref">pdf</a>
-                          <a href = "http://arxiv.org/abs/1406.1922" class="btn btn-ref">arXiv</a>
-                          <a href = "files/bibtex_IJCAI.bib" class="btn btn-ref">bibtex</a>
-                          <br><br>
-                            <p class="abstract">
-                            <b> Abstract: </b>
-                            This paper deals with the problem of nonparametric independence testing, a fundamental decision-theoretic problem that asks if two arbitrary (possibly multivariate) random variables X,Y are independent or not, a question that comes up in many fields like causality and neuroscience. While quantities like correlation of X,Y only test for (univariate) linear independence, natural alternatives like mutual information of X,Y are hard to estimate due to a serious curse of dimensionality. A recent approach, avoiding both issues, estimates norms of an <i>operator</i> in Reproducing Kernel Hilbert Spaces (RKHSs). Our main contribution is strong empirical evidence that by employing <i>shrunk</i> operators when the sample size is small, one can attain an improvement in power at low false positive rates. We analyze the effects of Stein shrinkage on a popular test statistic called HSIC (Hilbert-Schmidt Independence Criterion).
-Our observations provide insights into two recently proposed shrinkage estimators, SCOSE and FCOSE - we prove that SCOSE is (essentially) the optimal linear shrinkage method for <i>estimating</i> the true operator; however, the non-linearly shrunk FCOSE usually achieves greater improvements in <i>test power</i>. This work is important for more powerful nonparametric detection of subtle nonlinear dependencies for small samples.
-                            
-                            
-                            </p>
-                            
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                   <div class="col-lg-12 text-left">
-                        <div class="modal-body">
-                               
-                          <g6> "A Compositional and Interpretable Semantic Space" </g6>
-						<br>A. Fyshe, <b>L. Wehbe</b>, P. Talukdar, B. Murphy and T. Mitchell
-						<br><i>Proceedings of the 2015 Conference of the North American Chapter of the ACL, chosen for oral presentation </i> (NAACL 2015).
-						
-						
-						<br><br>
-                            <img src="img/portfolio/naacl.jpg" class="img-responsive img-centered" alt="">
-                          
-                          <br><br>
-                            <br> <a href="http://www.anthology.aclweb.org/N/N15/N15-1004.pdf" class="btn btn-ref"> pdf</a> 
-						<a href="http://www.anthology.aclweb.org/N/N15/N15-1004.bib" class="btn btn-ref"> bibtex</a> 	
-						<br><br>
-						<b> Abstract: </b>
-                            Vector Space Models (VSMs) of Semantics are useful tools for exploring the semantics of single words, and the composition of words to make phrasal meaning. While many methods can estimate the meaning (i.e. vector) of a phrase, few do so in an interpretable way. We introduce a new method (CNNSE) that allows word and phrase vectors to adapt to the notion of composition. Our method learns a VSM that is both tailored to support a chosen semantic composition operation, and whose resulting features have an intuitive interpretation. Interpretability allows for the exploration of phrasal semantics, which we leverage to analyze performance on a behavioral task.
-                            
-                            </p>
-                            
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-left">
-                        <div class="modal-body">
-
-                          <g6>"The Semantics of Adjective Noun Phrases in the Human Brain"</g6>
-						<br> A. Fyshe, G. Sudre, <b>L. Wehbe</b>, N. Rafidi, T. M. Mitchell
-						<br> <i> In review. </i>
-						<br><br>
-                            <img src="img/portfolio/adj_noun.jpg" class="img-responsive img-centered" alt="">
-
-
-                          <a href="http://biorxiv.org/content/early/2016/11/25/089615" class="btn btn-ref">bioRXiv</a>
-                          <a href="files/bibtex_adjnoun.bib" class="btn btn-ref">bibtex</a>
-
-
-
-                           <br><br>
-
-						<p class="abstract">
-						 <b> Abstract: </b>
-						As a person reads, the brain performs complex operations to create higher order semantic representations from
-individual words. While these steps are effortless for competent readers, we are only beginning to understand how
-the brain performs these actions. Here, we explore semantic composition using magnetoencephalography (MEG)
-recordings of people reading adjective-noun phrases presented one word at a time. We track the neural representation
-of semantic information over time, through different brain regions. Our results reveal several novel findings: 1) the
-neural representation of adjective semantics observed during adjective reading is reactivated after phrase reading,
-with remarkable consistency, 2) a neural representation of the adjective is also present during noun presentation, but
-this neural representation is the reverse of that observed during adjective presentation 3) the neural representation
-of adjective semantics are oscillatory and entrained to alpha band frequencies. We also introduce a new method for
-analyzing brain image time series called Time Generalized Averaging. Taken together, these results paint a picture of
-information flow in the brain as phrases are read and understood.
-
-
-						 </p>
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     
+   <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                   <div class="col-lg-12 text-left">
+                        <div class="modal-body">
+                               
+						<g6> "SwiDeN : Convolutional Neural Networks For Depiction Invariant Object Recognition"</g6>
+						<br>   R K Sarvadevabhatla*,<b> S Surya*</b>, SSS  Kruthiventi, V Babu R. <i>(*equal contribution)</i>
+						<br> <i>Proceedings of the 2016 ACM International Conference on Multimedia (ACMMM, poster)</i>. 
+						
+						
+						<br><br>
+                            <img src="img/portfolio/switchnet.png" class="img-responsive img-centered" alt="">
+                          
+                          
+                          <a href = "https://arxiv.org/pdf/1607.08764v1.pdf" class="btn btn-ref">pdf</a>
+                          <a href = "http://arxiv.org/abs/1607.08764" class="btn btn-ref">arXiv</a>
+                          <a href = "files/bibtex_acmmm.bib" class="btn btn-ref">bibtex</a>
+                          <a href = "https://github.com/val-iisc/swiden" class="btn btn-ref">code</a>
+                          <br><br>
+                            <p class="abstract" style="text-align:justify">
+                            <b> Abstract: </b>
+                           Current state of the art object recognition architectures achieve
+impressive  performance  but  are  typically  specialized  for  a
+single depictive style (e.g.  photos only,  sketches only).  In
+this  paper,  we  present  SwiDeN:  our  Convolutional  Neural
+Network  (CNN)  architecture  which  recognizes  objects  re-
+gardless of how they are visually depicted (line drawing, re-
+alistic  shaded  drawing,  photograph  etc.).   In  SwiDeN,  we
+utilize a novel `deep' depictive style-based switching mech-
+anism which appropriately addresses the depiction-speci c
+and depiction-invariant aspects of the problem. We compare
+SwiDeN with alternative architectures and prior work on a
+50-category Photo-Art dataset containing objects depicted
+in multiple styles.  Experimental results show that SwiDeN
+outperforms other approaches for the depiction-invariant ob-
+ject recognition problem. 
+                            
+                            </p>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+    <!-- /.content-section-a -->
+
+	<a  name="contact"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Contact: <a href="mailto:shiv.surya314@gmail.com" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-envelope"></i> <span class="network-name"></a></h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                       <li> 
+                                 <a href="files/resume_ssurya.pdf" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-download-alt"></i> <span class="network-name">Resume</span></a>
+                            </li> 
+                            <li>
+                                <a href="https://github.com/shivsurya" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="https://in.linkedin.com/in/shivsurya" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
 
     <!-- Footer -->
     <footer>
-        <div class="container">
+        <div class="container" style="bottom:0px">
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="list-inline">
@@ -494,6 +314,10 @@ information flow in the brain as phrases are read and understood.
                         <li>
                             <a href="#aboutme">About Me</a>
                         </li>
+                       <li class="footer-menu-divider">&sdot;</li>
+                      <li class="page-scroll">
+                        <a href="publications.html">Publications</a>
+                    </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
                             <a href="#contact">Contact</a>
