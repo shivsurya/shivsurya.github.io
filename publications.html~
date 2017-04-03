@@ -91,7 +91,26 @@
 						<h3>Peer reviewed Conferences </h3>
 						
 						<br>
+						 <div class="row">
+						<div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/scnn.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                		
+                		<div class="col-lg-9 text-left" style="margin-top:75px">
+						<g6> "Switching Convolutional Networks for Crowd Counting"</g6>
+						<br>   <b> S Surya*</b>, D B Sam* and V Babu R. <i>(*equal contribution)</i>
+						<br> <i>2017 IEEE Conference on Computer Vision and Pattern Recognition  (CVPR '17, poster)</i>. 
 						
+						</div>
+						</div>
+						<br>
 						
 						
 						 <div class="row">
@@ -108,8 +127,8 @@
                 		
                 		<div class="col-lg-9 text-left" style="margin-top:75px">
 						<g6> "SwiDeN : Convolutional Neural Networks For Depiction Invariant Object Recognition"</g6>
-						<br>   R K Sarvadevabhatla*,<b> S Surya*</b>, SSS  Kruthiventi, V Babu R. <i>(*equal contribution)</i>
-						<br> <i>Proceedings of the 2016 ACM International Conference on Multimedia (ACMMM, poster)</i>. 
+						<br>  <b>S Surya*</b>, R K Sarvadevabhatla*, SSS  Kruthiventi, V Babu R. <i>(*equal contribution)</i>
+						<br> <i>Proceedings of the 2016 ACM International Conference on Multimedia (ACMMM 16, poster)</i>. 
 						<br> <a href = "https://arxiv.org/pdf/1607.08764v1.pdf" class="btn btn-ref">pdf</a>
                           <a href = "https://arxiv.org/abs/1607.08764" class="btn btn-ref">arXiv</a>
                           <a href = "files/bibtex_acmmm.bib" class="btn btn-ref">bibtex</a>
@@ -135,7 +154,7 @@
                 		<div class="col-lg-9 text-left" style="margin-top:75px">
 						<g6> "TraCount: A Deep Convolutional Neural Network for HighlyOverlapping Vehicle Counting" </g6>
 						<br><b>S Surya</b>, and V Babu R.
-						<br><i>To appear in Proceedings of the 2016 Indian Conference on Computer Vision, Graphics and Image Processing, chosen for oral presentation </i> (ICVGIP 2016).
+						<br><i>Proceedings of the 2016 Indian Conference on Computer Vision, Graphics and Image Processing, oral presentation </i> (ICVGIP 2016).
 					 <!--	<br> <a href="" class="btn btn-ref"> pdf</a> 
 						<a href="http://www.anthology.aclweb.org/N/N15/N15-1004.bib" class="btn btn-ref"> bibtex</a>-->
  	
@@ -191,10 +210,10 @@
                         <div class="modal-body " >
 						<g6> "TraCount: A Deep Convolutional Neural Network for HighlyOverlapping Vehicle Counting" </g6>
 						<br><b>S Surya</b>, and V Babu R.
-						<br><i>To appear in Proceedings of the 2016 Indian Conference on Computer Vision, Graphics and Image Processing, chosen for oral presentation </i> (ICVGIP 2016).
+						<br><i>Proceedings of the 2016 Indian Conference on Computer Vision, Graphics and Image Processing,oral presentation </i> (ICVGIP 2016).
 						 <br><br>
                             <img src="img/portfolio/crowd_counting_template.png" class="img-responsive img-centered" alt="">
-			 <!--			<br> <a href="http://www.cs.cmu.edu/afs/cs/project/theo-73/www/MEGstories/" class="btn btn-ref">supporting website</a> <a href="http://aclweb.org/anthology/D/D14/D14-1030.pdf" class="btn btn-ref">pdf</a>   <a href="https://www.youtube.com/watch?v=Ko6p7hmEzyU" class="btn btn-ref">conference talk video</a>  <a href="http://aclweb.org/anthology/D/D14/D14-1030.bib" class="btn btn-ref">bibtex</a>-->
+		
 
 						
                            <br><br>
@@ -267,6 +286,45 @@ ject recognition problem.
         </div>
     </div>
 
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                   <div class="col-lg-12 text-left">
+                        <div class="modal-body">
+                               
+						<g6> "Switching Convolutional Networks for Crowd Counting"</g6>
+						<br>   <b> S Surya*</b>, D B Sam*, V Babu R. <i>(*equal contribution)</i>
+						<br> <i> 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR '17, poster)</i>. 
+						
+						
+						<br><br>
+                            <img src="img/portfolio/scnn.png" class="img-responsive img-centered" alt="">
+                          
+                          
+                          
+                          <br><br>
+                            <p class="abstract" style="text-align:justify">
+                            <b> Abstract: </b>
+                         We propose a novel crowd counting model that maps a given crowd scene to its density. Crowd analysis is compounded by myriad of factors like inter-occlusion between people due to extreme crowding, high similarity of appearance between people and background elements, and large variability of camera view-points. Current state-of-the art approaches tackle these factors by using multi-scale CNN architectures, recurrent networks and late fusion of features from multi-column CNN with different receptive fields. We propose switching convolutional neural network that leverages variation of crowd density within an image to improve the accuracy and localization of the predicted crowd count. Patches from a grid within a crowd scene are relayed to independent CNN regressors based on crowd count prediction quality of the CNN established during training. The independent CNN regressors are designed to have different receptive fields and a switch classifier is trained to relay the crowd scene patch to the best CNN regressor. We perform extensive experiments on all major crowd counting datasets and evidence on par or better performance compared to current state-of-the-art methods. We  provide interpretable representations of the multichotomy of space of crowd scene patches inferred from the switch. It is observed that the switch relays an image patch to a particular CNN column based on density of crowd.   
+                            </p>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
     <!-- /.content-section-a -->
 
@@ -334,7 +392,16 @@ ject recognition problem.
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-88700468-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 
 </html>
