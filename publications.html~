@@ -107,7 +107,9 @@
 						<g6> "Switching Convolutional Networks for Crowd Counting"</g6>
 						<br>   <b> S Surya*</b>, D B Sam* and V Babu R. <i>(*equal contribution)</i>
 						<br> <i>2017 IEEE Conference on Computer Vision and Pattern Recognition  (CVPR '17, poster)</i>. 
-						
+		          <br><a href = "files/2451.pdf" class="btn btn-ref">pdf</a>
+                          <a href = "files/2451-supp.pdf" class="btn btn-ref">supplementary</a>
+                          
 						</div>
 						</div>
 						<br>
@@ -133,6 +135,7 @@
                           <a href = "https://arxiv.org/abs/1607.08764" class="btn btn-ref">arXiv</a>
                           <a href = "files/bibtex_acmmm.bib" class="btn btn-ref">bibtex</a>
                           <a href = "https://github.com/val-iisc/swiden" class="btn btn-ref">code</a>
+  			  <a href = "files/swiden.pdf" class="btn btn-ref">poster</a>
 						</div>
 						</div>
 						<br>
@@ -157,7 +160,8 @@
 						<br><i>Proceedings of the 2016 Indian Conference on Computer Vision, Graphics and Image Processing, oral presentation </i> (ICVGIP 2016).
 					 <!--	<br> <a href="" class="btn btn-ref"> pdf</a> 
 						<a href="http://www.anthology.aclweb.org/N/N15/N15-1004.bib" class="btn btn-ref"> bibtex</a>-->
- 	
+
+ 	                                         <a href = "files/bibtex_icvgip.bib" class="btn btn-ref">bibtex</a>
 						</div>
 						</div>
 						<br>
@@ -215,7 +219,7 @@
                             <img src="img/portfolio/crowd_counting_template.png" class="img-responsive img-centered" alt="">
 		
 
-						
+		           <a href = "files/bibtex_icvgip.bib" class="btn btn-ref">bibtex</a>				
                            <br><br>
                             
 						<p class="abstract" style="text-align:justify">
@@ -257,6 +261,7 @@
                           <a href = "http://arxiv.org/abs/1607.08764" class="btn btn-ref">arXiv</a>
                           <a href = "files/bibtex_acmmm.bib" class="btn btn-ref">bibtex</a>
                           <a href = "https://github.com/val-iisc/swiden" class="btn btn-ref">code</a>
+                          <a href = "files/swiden.pdf" class="btn btn-ref">poster</a>
                           <br><br>
                             <p class="abstract" style="text-align:justify">
                             <b> Abstract: </b>
@@ -306,6 +311,8 @@ ject recognition problem.
 						
 						<br><br>
                             <img src="img/portfolio/scnn.png" class="img-responsive img-centered" alt="">
+                            <a href = "files/2451.pdf" class="btn btn-ref">pdf</a>
+                          <a href = "files/2451-supp.pdf" class="btn btn-ref">supplementary</a>
                           
                           
                           
